@@ -1,5 +1,6 @@
 /* Estilos gerais para o container principal */
 .container1 {
+
   min-height: 100vh; /* O contêiner terá pelo menos a altura da viewport */
   height: auto; /* Mas poderá crescer além disso se o conteúdo precisar */
   background: #f9f9f9; /* Mudança de cor de fundo para algo mais claro */
@@ -36,4 +37,3 @@
 }
 
 /* Estilos para o contêiner de posts */
-

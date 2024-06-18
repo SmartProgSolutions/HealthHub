@@ -130,7 +130,7 @@ button:hover {
 
 .toggle-password {
     position: absolute;
-    right: 40px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;

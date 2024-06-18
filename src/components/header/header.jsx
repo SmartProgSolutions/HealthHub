@@ -16,7 +16,6 @@ function Header(){
             <div className='botoes-header'>
                 
                    <Botao className='botoes-div-header' propButton='Home'/>
-                
                  <Botao className='botoes-div-header' propButton='Recursos'/> 
                  <Botao className='botoes-div-header' propButton='Profissional'/> 
                  <Botao className='botoes-div-header' propButton='Grupos'/>
