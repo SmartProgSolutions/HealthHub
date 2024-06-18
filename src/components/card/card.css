@@ -1,6 +1,6 @@
 .card{
     margin-top: 20px;
-    background-color: #0084ff;
+    background-color: #3C9CD9;
     height: 182px;
     width: 411px;
     display: flex;
@@ -8,6 +8,7 @@
 }
 .card:hover{
     cursor: pointer;
+    border: 2px solid #0a2e47;
 }
 .retangulo{
     background-color:rgba(242, 242, 242, 0.9490196108818054);
