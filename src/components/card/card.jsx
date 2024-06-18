@@ -26,7 +26,7 @@ const cards = [
 
 function App() {
     return (
-        <div className='corpo'>
+        <div className='card-abordagem'>
             {cards.map((card, index) => (
                 <Card key={index} {...card} />
             ))}
