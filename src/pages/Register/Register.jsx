@@ -42,13 +42,8 @@ const Register = () => {
             <form onSubmit={handleSubmit}>
               <input type="email" placeholder="Email" onChange={(e) => {setEmail(e.target.value)}}/>
               <div className="pass-input-div">
-                <input type={showPassword? "text" : "password"} placeholder="Password" />
-                <span className="toggle-password" onClick={() => setShowPassword(!showPassword)}>
-                    {showPassword? <FaEyeSlash /> : <FaEye />}
-                </span>
                 <input type={showPassword ? "text" : "password"} placeholder="Password" onChange={(e) => {setPassword(e.target.value)}} />
                 {showPassword ? <FaEyeSlash onClick={() => {setShowPassword(!showPassword)}} /> : <FaEye onClick={() => {setShowPassword(!showPassword)}} />}
-                
               </div>
               <div className="login-center-options">
                 <div className="remember-div">
@@ -59,20 +54,19 @@ const Register = () => {
                 </div>
               </div>
               <div className="login-center-buttons">
-                <Link to="/" className='button-login'>Registrar-se</Link>
                 <div className="google-login-buttons">
-                <button type="button" className='button-google'>
+                  <button type="submit" className='button-register'>Registre-se</button>
+                  <button type="button" className='button-google-register'>
                   G+ Google
-                  </button>
-                  <button type="submit">Login</button>
-                  <button type="button">
-                      {/* <img src={GoogleSvg} alt="" /> */}
-                      Entrar com o Google
                   </button>
                 </div>
               </div>
             </form>
           </div>
+
+          <p className="login-bottom-p">
+            Já tem uma conta? <Link to="/login">Login</Link>
+          </p>
         </div>
       </div>
     </div>

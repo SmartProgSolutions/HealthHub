@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-.input-pesquisa{
+
+
+.input-pesquisa-header{
     background-color: white;
-    padding: 7px;
+    height: 40px;
+    border-radius: 9px;
     border: none;
 }
 .campo-pesquisa{
@@ -9,34 +12,33 @@
     position: relative;
     bottom: 275px;
    display: flex;
+   align-items: center;
+   justify-content: center;
    align-self: self-end;
    margin-right: 125px;
    gap: 1px;
 }
-.botao-pesquisa{
-    padding: 7px;
+.botao-pesquisa-header{
+    padding: px;
     color: white;
     background-color: black;
     border: none;
+    height: 50px;
+    border-radius: 9px; 
+    margin-left: 16px;
 }
-.input-pesquisa,
-.botao-pesquisa {
-  margin-right: 4px; 
-  border-radius: 6px;
-  padding: 10px;
-  border: none;
-}
-.botao-pesquisa:hover{
+
+.botao-pesquisa-header:hover{
     cursor: pointer;
     color: black;
     background-color: white;
 }
-.titulo{
+/* .titulo{
     position: relative;
     bottom: 205px;
    font-family: Inter;
    font-weight: 900;
    margin-left: 10px;
    font-size: 40px; 
-}
+} */
 

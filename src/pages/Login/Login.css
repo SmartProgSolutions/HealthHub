@@ -9,6 +9,13 @@ h2, h3, p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.login-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
 .login-right {
     background: #f2f2f2;
     padding: 20px;
@@ -21,6 +28,7 @@ h2, h3, p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
 }
 input[type="text"], input[type="password"], input[type="email"] {
     width: 90%;
@@ -86,9 +94,6 @@ button {
     border-radius: 5px; /* Bordas arredondadas */
     padding: 10px 20px; /* Espaçamento interno */
     margin-right: 10px; /* Espaçamento entre botões */
-    margin-right: 10px;
-    
-    
 }
 .button-google{
     justify-content: center;
@@ -133,6 +138,5 @@ button:hover {
 }
 
 /* Estilize o campo de entrada conforme necessário */
-input[type="password"] {
-    padding-right: 30px; /* Aumenta o tamanho do campo de entrada para acomodar o ícone */
-}
+/* input[type="password"] {
+    padding-right: 30px; /* Aumenta o tamanho do campo de entrada para acomodar o ícone */ 

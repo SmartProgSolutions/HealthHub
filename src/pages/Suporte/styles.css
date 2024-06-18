@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 56px 0;
+    width: 100%;
+}
+
+.sup{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens à esquerda */
+    gap: 20px; /* Adiciona espaço entre os elementos */
+    max-width: 600px; /* Limita a largura máxima do formulário */
+    margin: auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Adiciona padding interno ao formulário */
+    padding: 10px;
+    border: 2px solid #b4b4b4; /* Adiciona uma borda ao formulário */
+    border-radius: 4px; /* Arredonda os cantos do formulário */
+}
+
+.sup label,
+.sup textarea {
+    display: block; /* Faz com que cada elemento ocupe toda a largura disponível */
+    width: 100%; /* Define a largura total do elemento */
+}
+
+.sup input[type="text"],
+.sup input[type="email"] {
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho do campo */
+    padding: 10px; /* Adiciona padding interno aos inputs */
+    border-radius: 4px; /* Arredonda os cantos dos inputs */
+    border: 1px solid #b4b4b4; /* Adiciona uma borda simples aos inputs */
+}
+
+.sup textarea {
+    resize: none; /* Desativa a capacidade de redimensionar o textarea */
+    min-height: 100px; /* Define uma altura mínima para o textarea */
+    padding-top: 10px; /* Adiciona padding superior ao textarea para melhorar a visualização do texto */
+    padding-bottom: 10px; /* Adiciona padding inferior ao textarea */
+}
+
+button{
+    margin: 10px 0 0 50px;
+}

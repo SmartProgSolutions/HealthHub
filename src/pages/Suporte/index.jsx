@@ -15,7 +15,7 @@ const SuporteForm = () => {
   };
 
   return (
-    <div>
+    <div className='sup'>
       <h1>Página de Suporte</h1>
       <p>Envie-nos sua pergunta ou problema.</p>
       <form onSubmit={handleSubmit}>

@@ -1,0 +1,6 @@
+/* Não apagar */
+/* isso aqui remove as bordas da tela  */
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}

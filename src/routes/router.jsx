@@ -37,7 +37,6 @@ const RoutesApp = () => {
           <Route path="/register" exact element={<Register />} />
           <Route path="/forum" exact element={<Forum />} />  
           <Route path="/profissional" exact element={<Profissional />} />
-          <Route path="/Grupos" exact element={<Grupos />} />
           <Route path="/Consultas" exact element={<Consultas_ON />} />
           <Route path="/grupos" exact element={<Grupos />} />
           <Route path="/perfil" exact element={<Perfil/>}/>

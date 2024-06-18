@@ -1,29 +1,39 @@
-.container {
-  min-height: 90vh; /* Ajustado para ocupar menos espaço vertical */
+/* Estilos gerais para o container principal */
+.container1 {
+  min-height: 100vh; /* O contêiner terá pelo menos a altura da viewport */
+  height: auto; /* Mas poderá crescer além disso se o conteúdo precisar */
   background: #f9f9f9; /* Mudança de cor de fundo para algo mais claro */
   max-width: 1200px;
-  padding: 20px; /* Reduzido para um espaçamento menor */
   margin: 0 auto;
 }
 
-.button-container{
-  min-height: 60px;
+/* Estilos para o contêiner de botões */
+.button-container {
+  position: sticky;
+  top: 0;
+  bottom: 50px; /* Distância máxima que os botões podem descer */
+  z-index: 1000; /* Garante que os botões fiquem acima de outros elementos */
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.search-container{
+/* Estilos para o contêiner de pesquisa */
+.search-container {
   margin-bottom: 30px;
 }
 
-.search-container h1{
+/* Estilos para o título dentro do contêiner de pesquisa */
+.search-container h1 {
   margin-bottom: 30px;
 }
-
-.text-input {
-    width: 100%;
-    font-size: 16px; /* Tamanho de fonte um pouco maior para melhor legibilidade */
-    padding: 8px 12px; /* Espaçamento interno ajustado */
-    border: 1px solid #ced4da; /* Bordas claras para diferenciar */
-    border-radius: 4px; /* Bordas arredondadas para um design mais moderno */
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Espaçamento horizontal */
+  align-items: stretch; /* Ajusta os itens para preencher a altura do contêiner */
+  padding-top: 60px; /* Altura dos botões */
 }
+
+/* Estilos para o contêiner de posts */
+

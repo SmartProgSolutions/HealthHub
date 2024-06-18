@@ -79,22 +79,20 @@ button {
     height: 40px;
     width: 120px;
 }
-.button-login {
+.button-register {
     background-color: #007bff; /* Azul mais escuro */
     color: white;
     border: none;
     border-radius: 5px; /* Bordas arredondadas */
     padding: 10px 20px; /* Espaçamento interno */
     margin-right: 10px; /* Espaçamento entre botões */
-    margin-right: 10px;
-    
-    
 }
-.button-google{
+.button-google-register{
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: rgb(249, 62, 62);
+    margin-left: 10px;
 }
 
 button:hover {
@@ -132,8 +130,4 @@ button:hover {
     cursor: pointer;
     z-index: 1; /* Certifique-se de que o ícone esteja acima do texto do campo de entrada */
 }
-
 /* Estilize o campo de entrada conforme necessário */
-input[type="password"] {
-    padding-right: 30px; /* Aumenta o tamanho do campo de entrada para acomodar o ícone */
-}

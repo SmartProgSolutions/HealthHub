@@ -15,20 +15,20 @@ const Consultas_ON = () => {
 
   return (
     <div className="consultas-container">
-      <Widget />
 
-      <div className="consultas-tabs">
-        <button className={tab === 'marcar' ? 'active' : ''} onClick={() => setTab('marcar')}>
-          Marcar Consulta
-        </button>
-        <button className={tab === 'consultas' ? 'active' : ''} onClick={() => setTab('consultas')}>
-          Consultas Marcadas
-        </button>
-      </div>
+      {/* <div className="consultas-tabs">
+        
+      </div> */}
 
       {tab === 'marcar' && (
         <div className="consultas-section">
-          <h2>Marcar Consulta</h2>
+          <div className='section-h2-btn'>
+            <h2>Marcar Consulta</h2>
+            
+            <button className={tab === 'consultas' ? 'active' : ''} onClick={() => setTab('consultas')}>
+              Consultas Marcadas
+            </button>
+          </div>
           <ProfileDoctor onConsultaMarcada={handleConsultaMarcada} />
         </div>
       )}
@@ -55,8 +55,14 @@ const Consultas_ON = () => {
               ))}
             </ul>
           )}
+          <div className='div-button-marcar'> 
+            <button className={tab === 'marcar' ? 'active' : ''} onClick={() => setTab('marcar')} id='button-marcar'>
+                  Marcar Consulta
+            </button>
+          </div>
         </div>
       )}
+      
     </div>
   );
 };

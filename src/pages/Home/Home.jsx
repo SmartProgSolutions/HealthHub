@@ -12,7 +12,7 @@ function Home(){
         <div className="div-body">
             <Header />
             <div className="imagem">
-                <img src="../src/assets/autismo.png" alt="imagem-body" className="img-autismo"/>  
+                <img src="../src/assets/autismo-pecas.png" alt="imagem-body" className="img-autismo"/>  
             </div>
             
             <Card className="card-rosa"/>

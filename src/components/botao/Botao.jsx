@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import './botao.css';
 
-function Botao() {
-  const [color, setColor] = useState('white');
+function Botao({propButton}) {
+  // const [color, setColor] = useState('white');
 
-  const handleClick = () => {
-    setColor(prevColor => (prevColor === 'white' ? 'black' : 'white'));
-  };
+  // const handleClick = () => {
+  //   setColor(prevColor => (prevColor === 'white' ? 'black' : 'white'));
+  // };
 
   return (
     <div>
       <button 
-        className={`button ${color}`} 
-        onClick={handleClick}
+        className={`button-header`} 
+        // onClick={handleClick}
       >
-        Tab 1
+        {propButton}
       </button>
     </div>
   );

@@ -30,11 +30,15 @@ class Perfil extends Component{
                     <h1>Faça login para acessar a página do perfil</h1>
                 ) : (
                     <>
-                        <h1>Editar Perfil</h1>
-                        <div className="userInfo">
-                            <h2>Informações do Usuário</h2>
-                            <ProfileForm email={email}/>
+                        <div className="profile-info">
+                            <h1>Informações do Usuário</h1>
+                            
+                            <div className="userInfo">
+                                <h2>Editar Perfil</h2>
+                                <ProfileForm email={email}/>
+                            </div>
                         </div>
+                        
                     </>
                 )}
             </div>

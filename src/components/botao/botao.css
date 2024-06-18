@@ -1,20 +1,25 @@
-.button{
-    width: 70px;
+.button-header{
+    width: 112px;
     height: 37px;
     border-radius: 12px;
     cursor: pointer;
     border: none;
     transition: background-color 0.3s ease;
     z-index: 10;
-    margin-right: 10px;
+    margin-left: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
 }
-.button:hover{
+.button-header:hover{
     cursor: pointer;
     background-color: black;
     color: white;
 }
 .white {
     background-color: white;
+    color: black;
   }
   
   .black {

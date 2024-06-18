@@ -54,13 +54,8 @@ const Login = () => {
                 <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)}/>
               </div>
               <div className="pass-input-div">
-                <input type={showPassword? "text" : "password"} placeholder="Password" />
-                <span className="toggle-password" onClick={() => setShowPassword(!showPassword)}>
-                    {showPassword? <FaEyeSlash /> : <FaEye />}
-                </span>
                 <input type={showPassword ? "text" : "password"} placeholder="Password" onChange={(e) => setPassword(e.target.value)}/>
                 {showPassword ? <FaEyeSlash onClick={() => {setShowPassword(!showPassword)}} /> : <FaEye onClick={() => {setShowPassword(!showPassword)}} />}
-                
               </div>
 
               <div className="login-center-options">
@@ -75,14 +70,10 @@ const Login = () => {
                 </Link>
               </div>
               <div className="login-center-buttons">
-                  <button type="button" className='button-login'>Login</button>
-                <Link to="/home">
-                  <button type="button" className='button-google'>G+ Google</button>
-                </Link>
                 <button type="submit" className='button-login'>Login</button>
                 <button type="button" className='button-google'>
                   {/* <img src={GoogleSvg} alt="" /> */}
-                  Login com Google
+                  G+ Google
                 </button>
               </div>
             </form>
