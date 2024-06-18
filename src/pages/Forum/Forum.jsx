@@ -4,10 +4,12 @@ import Conversa from "../../components/conversation/Conversa";
 import { Widget } from "../../components/Widget";
 import Header from '../../components/header/header';
 
+
 function Forum() {
   return (
     <>
-    <Header className='header-forum' />
+
+    <Header />
     <div className='body-forum'>
       {<Widget />}
       <Conversa></Conversa>

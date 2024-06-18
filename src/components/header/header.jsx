@@ -1,6 +1,7 @@
 import { Link } from 'phosphor-react';
 import Botao from '../botao/Botao';
 import './header.css'
+import { Route } from 'react-router-dom';
 // import CampoPesquisa from './pesquisa/pesquisa';
 function Header(){
     return(
@@ -15,9 +16,6 @@ function Header(){
             <div className='botoes-header'>
                 
                    <Botao className='botoes-div-header' propButton='Home'/>
-                
-                 
-                 <Botao className='botoes-div-header' propButton='Fórum'/> 
                  <Botao className='botoes-div-header' propButton='Recursos'/> 
                  <Botao className='botoes-div-header' propButton='Profissional'/> 
                  <Botao className='botoes-div-header' propButton='Grupos'/>

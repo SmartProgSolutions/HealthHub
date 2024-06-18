@@ -39,15 +39,13 @@
     align-items: center;
     gap: 15px;
     position: absolute;
-    top: 250px;
-
+    top: 265px;
 }
 .botoes-div-header{
     display: flex;
     flex-direction: row;
     margin-left: 0px;
-
-    
+  
 }
 
 .titulo-header{

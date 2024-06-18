@@ -52,7 +52,9 @@ class Recursos extends Component{
     const noMorePosts = page + postsPerPage >= allPosts.length;
 
     return( // O que está dentro do return é jsx, caso você queira usar alguma lógica do js, é necessário usar as {}
-      <section className='container'>
+
+      <section className='container1'>
+
          
         <div className='search-container'>
           <h1>Pesquisar abordagem:</h1>
@@ -64,9 +66,11 @@ class Recursos extends Component{
           <PostsDiv posts={posts}/>
           <div className="button-container">
             <PostButton loadMorePosts={this.loadMorePosts} disabled={noMorePosts}/>
+
             <h2>Carregar mais</h2>
           </div>
           <div>{<Widget/>}</div>
+
         </>
         ) : (
           <h1>Não há abordagens com esse título.</h1>
