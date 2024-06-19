@@ -15,11 +15,11 @@
     height:183px;
     width:66px;
     display: flex;
-   margin-left: 100px;
+    margin-left: 100px;
    
   
 }
-.seta{
+/* .seta{
     width: 55px;
     height: 66px;
     display: flex;
@@ -27,10 +27,10 @@
     justify-content: center;
     margin-top: 60px;
     margin-left: 7px;
-}
+} */
 .coracao{
-    width: 57px;
-    height: 57px;
+    width: 30px;
+    height: 30px;
     margin-left: 12px;
     margin-top: 12px;
 }
