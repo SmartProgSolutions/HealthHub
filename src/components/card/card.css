@@ -1,24 +1,22 @@
 .card{
-    margin-top: 20px;
-    background-color: #3C9CD9;
+    margin: 50px 0;
+    background-color: #4281ac;
     height: 182px;
     width: 411px;
     display: flex;
-    margin-left: 20px;
+    border-radius: 5px;
 }
 .card:hover{
     cursor: pointer;
-    border: 2px solid #0a2e47;
+    border: 2px solid #3C9CD9;
 }
-.retangulo{
+/* .retangulo{
     background-color:rgba(242, 242, 242, 0.9490196108818054);
     height:183px;
     width:66px;
     display: flex;
     margin-left: 100px;
-   
-  
-}
+} */
 /* .seta{
     width: 55px;
     height: 66px;
@@ -29,15 +27,14 @@
     margin-left: 7px;
 } */
 .coracao{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-left: 12px;
     margin-top: 12px;
 }
 .texto{
     font-weight: bold;
-
-    
+    color: #e3f4ff;
 }
 .titulo-abordagem{
     padding: 0;

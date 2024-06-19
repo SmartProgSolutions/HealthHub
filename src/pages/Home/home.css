@@ -1,5 +1,5 @@
 .div-body{
-    background-color: #e3f4ff;
+    background: var(--clr-bcg);
     height: 100vh;
 }
 .img-autismo{
@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 150px 40px 90px 40px;
 }	
 
 

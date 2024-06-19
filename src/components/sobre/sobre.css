@@ -1,25 +1,31 @@
 .body-sobre{
-    background-color:rgba(191, 46, 33, 0.5);
+    background-color: #4281ac;
     width: 100%;
     height: 500px;
     margin-top: 20px;
     display: flex;
     margin-bottom: 60px;
 }
-.bola{
+/* .bola{
     width: 143px;
     height: 142px;
     margin: 20px;
-}
+} */
 
 .titulo-sobre{
     font-size: 40pt;
+    text-align: left;
 }
 .texto-sobre{
-    color: white;
+    color: #e3f4ff;
     width: 850px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 150px;
+    flex-direction: column;
 }
 .conteudo-sobre{
-    font-size: 20pt;
-    font-weight: bold;
+    font-size: 15pt;
+    text-align: justify;
 }

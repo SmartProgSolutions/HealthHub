@@ -1,6 +1,24 @@
 .footer{
-    
-    background-color: #0378A6;
+    background-color: #0a2e47;
     width: 100%;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons-footer{
+    padding: 10px;
+}
+
+.titulo-footer{
+    color: #e3f4ff;
+    font-size: 30px;
+    font-family: Comfortaa, sans-serif;
+    margin-top: 20px;
+}
+
+.footer img {
+    margin: 10px;
 }

@@ -21,7 +21,9 @@ const cards = [
     { tituloAbordagem: "Tecnologia assistiva", informacoesAbordagem: "Informações a mais sobre Abordagem 1" },
     { tituloAbordagem: "Terapia Assistida por Animais (TAA)", informacoesAbordagem: "Informações a mais sobre Abordagem 2" },
     { tituloAbordagem: "Abordagem 3", informacoesAbordagem: "Informações a mais sobre Abordagem 3" },
-    { tituloAbordagem: "Abordagem 4", informacoesAbordagem: "Informações a mais sobre Abordagem 4" }
+    { tituloAbordagem: "Abordagem 4", informacoesAbordagem: "Informações a mais sobre Abordagem 4" },
+    { tituloAbordagem: "Abordagem 5", informacoesAbordagem: "Informações a mais sobre Abordagem 5" },
+    { tituloAbordagem: "Abordagem 6", informacoesAbordagem: "Informações a mais sobre Abordagem 6" }
 ];
 
 function App() {

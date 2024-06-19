@@ -11,6 +11,7 @@
     margin: 10px;
     padding: 0px;
     cursor: pointer;
+    text-align: center;
 }
 .anotacoesForm{
     display: flex;
@@ -40,9 +41,15 @@
     justify-content: center;
 }
 .hideForm{
-    margin-left: 290px;
+    margin-left: 200px;
+    width: 50px;
+    height: auto;
+    text-align: center;
 }
 .hideBody{
     width: 100px;
     margin-bottom: 10px;
+}
+.botaoForm{
+    margin-left:0 ;
 }
