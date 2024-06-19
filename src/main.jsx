@@ -8,6 +8,7 @@ import "./styles/index.css";*/ }
 // alora
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    
     <App />
     <RoutesApp/>
   </React.StrictMode>,

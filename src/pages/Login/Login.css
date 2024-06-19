@@ -17,7 +17,8 @@ h2, h3, p {
 }
 
 .login-right {
-    background: #f2f2f2;
+    
+    background: var(--clr-bcg);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -121,8 +122,8 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ADD8E6;
-    min-height: 100vh; /* Garante que ocupe pelo menos a altura total da viewport */
+    /* background-color: #fd1100; */
+    /*min-height: 100vh;  Garante que ocupe pelo menos a altura total da viewport */
 }
 .pass-input-div {
     position: relative;
@@ -140,3 +141,6 @@ button:hover {
 /* Estilize o campo de entrada conforme necessário */
 /* input[type="password"] {
     padding-right: 30px; /* Aumenta o tamanho do campo de entrada para acomodar o ícone */ 
+
+
+    

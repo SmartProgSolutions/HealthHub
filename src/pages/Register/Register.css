@@ -114,8 +114,8 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ADD8E6;
-    min-height: 100vh; /* Garante que ocupe pelo menos a altura total da viewport */
+    background: var(--clr-bcg);
+    /*min-height: 100vh;  Garante que ocupe pelo menos a altura total da viewport */
     width: 400px;
 }
 .pass-input-div {
