@@ -13,6 +13,11 @@ body {
     height: 100%;
 }
 
+.notes_button{
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
 .notes * {
     font-family: sans-serif;
 }
@@ -44,10 +49,12 @@ body {
 
 .notes__list-item {
     cursor: pointer;
+    background-color: #aaaaaa;
+    border-radius: 5px;
 }
 
 .notes__list-item--selected {
-    background: #eeeeee; /* cor do fundo card lateral */
+    background: #6baecf; /* cor do fundo card lateral */
     border-radius: 7px;
     font-weight: bold;
 }
@@ -64,11 +71,11 @@ body {
 
 .notes__small-body {
     padding: 0 10px;
-    color:#aaaaaa
+    color: white
 }
 
 .notes__small-updated {
-    color: #aaaaaa;
+    color: white;
     font-style: italic;
     text-align: right;
 }
