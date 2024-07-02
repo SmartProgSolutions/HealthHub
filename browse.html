@@ -20,13 +20,10 @@ aa<!DOCTYPE html>
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
 
-TemplateMo 579 SmartProgSolutions Gaming
+      <!-- Styles personalizados da página de dashburd  -->
+      <link rel="stylesheet" href="assets/css/dark-mode.css">
 
-https://templatemo.com/tm-579-SmartProgSolutions-gaming
-
--->
   </head>
 
 <body>
@@ -47,8 +44,8 @@ https://templatemo.com/tm-579-SmartProgSolutions-gaming
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-        <div class="row">
             <div class="col-12">
+              <div class="row">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
@@ -65,12 +62,18 @@ https://templatemo.com/tm-579-SmartProgSolutions-gaming
                     <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="browse.html">Browse</a></li>
-                      <li><a href="details.html">Details</a></li>
-                      <li><a href="notes.html">Notes</a></li>
-                      <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
-                    </ul>  
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="notes.html">Notes</a></li>
+                        <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                    </ul>
+                    
+                    <div class="form-check form-switch">
+                      <input type="checkbox" class="form-check-input" id="darkSwitch">
+                      <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                    </div>
+                    <script src="./assets/componentes/header/assets/js/header.js"></script>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -410,6 +413,8 @@ https://templatemo.com/tm-579-SmartProgSolutions-gaming
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+
+  <script src="./assets/js/dark-mode-switch.min.js"></script>
 
 
   </body>
