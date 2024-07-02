@@ -15,10 +15,25 @@ export default class NotesView {
                 <textarea class="notes__body">Tome uma nota...</textarea>
             </div>
         `;
-
+        const darkMode = document.querySelector('.form-check-input');
         const btnAddNote = this.root.querySelector(".notes__add");
         const inpTitle = this.root.querySelector(".notes__title");
         const inpBody = this.root.querySelector(".notes__body");
+        const notesPreview = this.root.querySelector('.notes__preview');
+        const notesTitle = this.root.querySelector('.notes__title');
+        const notesBody = this.root.querySelector('.notes__body');
+
+        darkMode.addEventListener('click', (e) => { //Observar
+            if(darkMode.checked){
+                notesPreview.style.backgroundColor = '#666666';
+                notesTitle.style.backgroundColor = '#666666';
+                notesBody.style.backgroundColor = '#666666';
+            } else{
+                notesPreview.style.backgroundColor = 'white';
+                notesTitle.style.backgroundColor = 'white';
+                notesBody.style.backgroundColor = 'white';
+            }
+        })
 
         btnAddNote.addEventListener("click", () => {
             this.onNoteAdd();
