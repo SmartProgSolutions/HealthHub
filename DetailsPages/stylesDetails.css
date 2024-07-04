@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+.titulo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+   /* Ajuste a altura conforme necessário */
+   margin-bottom: 10px;
+}
+
+.titulo-abordagem {
+    color: #dc3545;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul {
+    list-style-type: disc; /* Define o tipo de marcador como ponto */
+    margin-left: 20px; /* Adiciona margem à esquerda */
+}
+li {
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+}
+
+.main-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
