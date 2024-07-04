@@ -11,12 +11,15 @@
                                 <div class="right-description893">
                                     <div id="que-hedder2983">
                                         <h4 class="nome_usuario"><b>${questionData.username}</b></h4>
-                                        <h3><a href="answerQuestion.html?index=${index}">${questionData.questionTitle}</a></h3>
+                                        <h3>${questionData.questionTitle}</h3>
                                     </div>
                                     <div class="ques-details10018">
                                         <p>${questionData.questionDetails}</p>
                                     </div>
                                     <hr>
+                                    <div class="add-comment-link">
+                                        <a href="answerQuestion.html?index=${index}">Adicionar comentário</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
