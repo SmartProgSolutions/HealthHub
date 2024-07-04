@@ -3,6 +3,25 @@
   margin-top: 11px;
   /* display: flex; */
 }
+.col-lg-12 p  {
+  color: #000000 !important;
+}
+[data-theme="dark"] .col-lg-12 p{
+  color: #eee !important;
+}
+.col-lg-12 br a  {
+  color: #000000 !important;
+}
+
+ .col-lg-12 a  {
+  color: #00b7ff !important;
+}
+
+/* .col-lg-12  {
+  color: #000000 !important;
+} */
+
+
 
 [data-theme="dark"] {
   background-color: #111 !important;
@@ -24,5 +43,4 @@
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
 }
-
 

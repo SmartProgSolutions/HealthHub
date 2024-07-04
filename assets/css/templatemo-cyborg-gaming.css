@@ -220,12 +220,15 @@ section {
   margin-bottom: 30px;
 }
 
+
 .heading-section h4 em {
-  color: #fff;
+  color: #242424;
   font-style: normal;
   text-decoration: underline;
 }
-
+[data-theme="dark"] .heading-section h4 em{
+  color: #eee !important;
+}
 /* 
 ---------------------------------------------
 Pre-loader Style
@@ -808,16 +811,28 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: transparent;
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #d8f2ff;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
 }
+[data-theme="dark"] .most-popular .item{
+  background-color: #27292a !important;
+}
+
+.most-popular .item h4 {
+  color: #2b2b2b;
+}
+[data-theme="dark"] .most-popular .item h4{
+  color: #eee !important;
+}
+
+
 
 .most-popular .item .item {
   padding: 0px;
@@ -877,7 +892,7 @@ Gaming Library Style
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: transparent;
   border-radius: 23px;
 }
 
@@ -964,7 +979,7 @@ Featured Games Style
 
 .featured-games {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: transparent;
   padding: 30px;
 }
 
@@ -1068,7 +1083,7 @@ Featured Games Style
 
 .top-downloaded {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: transparent;
   padding: 30px;
   max-height: 567px;
   min-height: 567px;
@@ -1173,7 +1188,7 @@ Live Stream Style
 .live-stream {
   margin-top: 60px;
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: transparent;
   padding: 30px;
 }
 
@@ -1311,7 +1326,7 @@ Game Details Style
 .game-details .content {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: transparent;
 }
 
 .game-details .content .left-info {
@@ -1401,7 +1416,7 @@ Other Related Style
 .other-games {
   border-radius: 23px;
   padding: 30px 30px 0px 30px;
-  background-color: #1f2122;
+  background-color: transparent;
   margin-top: 60px;
 }
 
@@ -1458,7 +1473,7 @@ Top Streamers Style
 
 .top-streamers {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: transparent;
   padding: 30px;
   max-height: 567px;
   min-height: 567px;
@@ -1524,7 +1539,7 @@ Profile Style
 .main-profile {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: transparent;
 }
 
 .main-profile .main-info span {
