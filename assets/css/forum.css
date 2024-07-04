@@ -636,6 +636,64 @@ hr {
     font-size: 13px;
 }
 
+/* Dispositivos menores que 768px (tablets e mobiles) */
+@media (max-width: 768px) {
+    .navbar-menu-left-side239 ul li a {
+        font-size: 14px; /* Ajusta o tamanho da fonte para links do menu */
+    }
+
+    .navbar-serch-right-side .form-control222 {
+        width: 80%; /* Ajusta a largura do campo de busca */
+        margin: 0 auto; /* Centraliza o campo de busca */
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 5px 15px; /* Reduz o padding dos links do navbar */
+    }
+
+    .question-type2033, .blog-part3903, .status-part3821, .categori-part329, .recent-post3290, .footer-search, .post-details021, .comments-list .comment-avatar {
+        padding: 10px; /* Reduz o padding para vários componentes */
+    }
+
+    .comments-list .comment-box {
+        width: 90%; /* Ajusta a largura da caixa de comentários */
+    }
+
+    .user-profile328903, .about-user2039, .user-description303 {
+        padding: 10px; /* Reduz o padding para perfis de usuário e descrições */
+    }
+
+    .user-social3903 a {
+        font-size: 12px; /* Ajusta o tamanho da fonte para ícones sociais */
+    }
+}
+
+/* Dispositivos menores que 480px (smartphones) */
+@media (max-width: 480px) {
+    .navbar-menu-left-side239 ul li a {
+        font-size: 12px; /* Ajusta ainda mais o tamanho da fonte para links do menu */
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 5px 10px; /* Reduz ainda mais o padding dos links do navbar */
+    }
+
+    .question-type2033, .blog-part3903, .status-part3821, .categori-part329, .recent-post3290, .footer-search, .post-details021, .comments-list .comment-avatar {
+        padding: 5px; /* Reduz ainda mais o padding para vários componentes */
+    }
+
+    .comments-list .comment-box {
+        width: 95%; /* Ajusta a largura da caixa de comentários */
+    }
+
+    .user-profile328903, .about-user2039, .user-description303 {
+        padding: 5px; /* Reduz o padding para perfis de usuário e descrições */
+    }
+
+    .user-social3903 a {
+        font-size: 10px; /* Ajusta o tamanho da fonte para ícones sociais */
+    }
+}
 @media screen and (max-width: 650px) {
     #main>label {
         font-size: 0;

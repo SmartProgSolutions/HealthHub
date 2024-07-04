@@ -3,7 +3,7 @@
   <a href="https://concretosmart.vercel.app/">Demo</a>
 </div>
 
-<h1 align="center">ConcretoSmart</h1>
+<h1 align="center">HealthHub</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/juniorvilas/nlw-setup?color=56BEB8">
