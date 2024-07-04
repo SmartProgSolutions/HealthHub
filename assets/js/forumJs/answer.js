@@ -30,8 +30,8 @@ function loadQuestionAndAnswers() {
                 <div class="col-md-9">
                     <div class="right-description893">
                         <div id="que-hedder2983">
-                            <h4 class="nome_usuario"><b>${question.username}</b></h4>
-                            <h3>${question.questionTitle}</h3>
+                            <h4 id="nome_usuario"><b>${question.username}</b></h4>
+                            <h3 id="nome_usuario" >${question.questionTitle}</h3>
                         </div>
                         <div class="ques-details10018">
                             <p>${question.questionDetails}</p>
