@@ -13,6 +13,8 @@ body {
     padding: 20px;
 }
 
+
+
 /* Navbar transparente */
 .navbar {
     background-color: transparent;
@@ -21,17 +23,21 @@ body {
     border: none;
 }
 
-.navbar a {
+.top-menu-bottom932 {
+    margin-top: 200px;
+}
+
+/* .navbar a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
-}
+} */
 
-.navbar a:hover {
+/* .navbar a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-}
+} */
 
 /* Estilo do breadcrumb */
 .breadcrumb839 {

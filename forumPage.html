@@ -11,16 +11,57 @@
     <meta name="robots" content="index, nofollow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
-    <title>Ask Me</title>
+    <title>Forum Page</title>
     <link rel="icon" href="assets/images/coracao.png" type="image/x-icon">
     <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/templatemo-cyborg-gaming.css">
     <link href="./assets/css/forum.css" rel="stylesheet" type="text/css">
     <!-- <link href="css/animate.css" rel="stylesheet" type="text/css"> -->
      </head>
 
 <body>
     <!--======== Navbar =======-->
-    
+    <header class="header-area header-sticky">
+        <div class="container">
+                <div class="col-12">
+                  <div class="row">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logoH.png" alt="">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Search End ***** -->
+                        <div class="search-input">
+                          <form id="search" action="#">
+                            <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                            <i class="fa fa-search"></i>
+                          </form>
+                        </div>
+                        <!-- ***** Search End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="browse.html">Browse</a></li>
+                            <li><a href="details.html">Details</a></li>
+                            <li><a href="notes.html">Notes</a></li>
+                            <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                        </ul>
+                        
+                        <div class="form-check form-switch">
+                          <input type="checkbox" class="form-check-input" id="darkSwitch">
+                          <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                        </div>
+                        <script src="./assets/componentes/header/assets/js/header.js"></script>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+      </header>
     
     <!-- ==========header mega navbar=======-->
     <div class="top-menu-bottom932">
@@ -31,7 +72,6 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav"> </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="forumPage.html">Home</a></li>
                         <li><a href="ask_question.html">Faça uma pergunta</a></li>
                     </ul>
                 </div>
@@ -73,7 +113,7 @@
         
     
     <!--    footer -->
-    <div class="footer-search">
+    <!-- <div class="footer-search">
         <div class="container">
         </div>
     </div>
@@ -87,12 +127,14 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
+      <div id="footer-placeholder"></div>
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/npm.js"></script>
-</body>
+    <script src="./assets/js/dark-mode-switch.min.js"></script>
+    <script src="./assets/componentes/footer/assets/js/footer.js"></script>
 
 </html>

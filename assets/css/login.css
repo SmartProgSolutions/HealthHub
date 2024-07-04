@@ -1,0 +1,40 @@
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+input{
+  margin: 10px;
+}
+
+#loginH1{
+  color: black;
+}
+
+.divH1{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.formButton{
+  border-radius: 15px;
+  border: 0px;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(196, 29, 29);
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.inputForm{
+  border-radius: 15px;
+  border: 0px;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(213, 215, 213);
+}

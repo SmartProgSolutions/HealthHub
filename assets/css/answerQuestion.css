@@ -16,6 +16,10 @@ body {
     padding: 20px;
 }
 
+#nome_usuario {
+    color: black;
+}
+
 /* Estilo para cada pergunta e resposta */
 .question-type2033, .answer-type2033 {
     margin-bottom: 20px;
@@ -66,13 +70,13 @@ body {
 }
 
 /* Estilos para a barra de navegação */
-.navbar {
+/* .navbar {
     margin: 0;
     background-color: #007bff;
     border-radius: 0;
-}
+} */
 
-.navbar {
+/* .navbar {
     background-color: transparent;
     color: #fff;
     padding: 10px 0;
@@ -89,7 +93,7 @@ body {
 .navbar a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-}
+} */
 
 /* Estilos para o breadcrumb */
 .breadcrumb839 {
