@@ -1,0 +1,148 @@
+/* Estilos para a página answerQuestion.html */
+
+/* Estilo geral do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilo para cada pergunta e resposta */
+.question-type2033, .answer-type2033 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a descrição do lado direito */
+.right-description893 {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para os campos de formulário */
+.username-part940, .email-part320, .question-title39 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o bloco de detalhes */
+.details2-239 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o botão de publicação */
+.publis1291 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.publis1291:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a descrição do formulário */
+.form-description43, .form-description442, .form-description433 {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para o contêiner de respostas */
+#answers-container {
+    margin-top: 0px;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    margin: 0;
+    background-color: #007bff;
+    border-radius: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Estilos para o breadcrumb */
+.breadcrumb839 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb839 li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumb839 li.active {
+    color: #007bff;
+}
+
+/* Estilos para o bloco de entrada de resposta */
+.answer-input-part {
+    margin-bottom: 20px;
+}
+
+.answer-input-part h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.answer-input-part textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    margin-left: 0;
+}
+
+/* Estilos para o botão de publicar resposta */
+.publish-button2389 {
+    text-align: right;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .col-md-9 {
+        width: 100%;
+    }
+}
+
+.main-content920 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
