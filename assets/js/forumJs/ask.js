@@ -22,4 +22,6 @@ document.getElementById('publishButton').addEventListener('click', function() {
 
     // Redirecionar para a página onde a pergunta será exibida
     window.location.href = 'forumPage.html';
+
+    
 });
