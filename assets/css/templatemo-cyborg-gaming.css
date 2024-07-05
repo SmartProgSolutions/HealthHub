@@ -97,8 +97,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #2c2c2c;
   font-weight: 700;
+}
+
+[data-theme="dark"] h1, h2, h3, h4, h5, h6{
+  color: #535353 !important;
 }
 
 ul {
@@ -226,7 +230,11 @@ section {
   font-style: normal;
   text-decoration: underline;
 }
+
 [data-theme="dark"] .heading-section h4 em{
+  color: #eee !important;
+}
+[data-theme="dark"] .heading-section h4{
   color: #eee !important;
 }
 /* 
@@ -384,7 +392,7 @@ Header Style
 }
 
 .header-area .main-nav #search input {
-  background-color: #27292a;
+  background-color: #b6b6b6;
   height: 46px;
   border-radius: 23px;
   border: none;
@@ -392,6 +400,11 @@ Header Style
   font-size: 14px;
   padding: 0px 15px 0px 45px;
 }
+[data-theme="dark"] .header-area .main-nav #search input{
+  color: #27292a !important;
+}
+
+
 
 .header-area .main-nav #search i {
   position: absolute;
@@ -464,7 +477,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
+  background-color: #9c9c9c;
   padding: 8px 10px 8px 20px;
   border-radius: 23px;
 }
@@ -1602,9 +1615,13 @@ Profile Style
 .clips .item  {
   border-radius: 23px;
   padding: 30px 15px;
-  background-color: #27292a;
+  background-color: #d8f2ff;
   margin-bottom: 30px;
 }
+[data-theme="dark"] .clips .item  {
+  background-color: #303030 !important;
+}
+
 
 .clips .item .thumb {
   position: relative;
