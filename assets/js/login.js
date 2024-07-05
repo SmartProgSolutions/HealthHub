@@ -6,4 +6,6 @@ document.addEventListener("submit", (event) => {
   localStorage.setItem('password', password.value);
 
   alert('Login feito com sucesso!');
+
+  window.location.href = '/index.html';
 });

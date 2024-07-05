@@ -55,7 +55,7 @@ function loadQuestionAndAnswers() {
                     <div class="col-md-9">
                         <div class="right-description893">
                             <div id="ans-hedder2983">
-                                <h4 class="nome_usuario"><b>${answer.username}</b></h4>
+                                <h4 id="nome_usuario"><b>${answer.username}</b></h4>
                             </div>
                             <div class="ans-details10018">
                                 <p>${answer.answerDetails}</p>
