@@ -116,10 +116,14 @@ body {
 .answer-input-part {
     margin-bottom: 20px;
 }
+.username029{
+    color: #333;
+}
 
 .answer-input-part h4 {
     margin-top: 0;
     margin-bottom: 10px;
+    color: #333;
 }
 
 .answer-input-part textarea {
@@ -130,6 +134,7 @@ body {
     border-radius: 5px;
     resize: vertical;
     margin-left: 0;
+    color: #333;
 }
 
 /* Estilos para o botão de publicar resposta */
